@@ -1,0 +1,104 @@
+@font-face { font-family: NeueMachina; src: url(../src/fonts/NeueMachina-Light.otf); } 
+@font-face { font-family: HelveticaNeue; src: url(../src/fonts/HelveticaNeueHeavy.otf); } 
+@font-face { font-family: HelveticaNeue-light; src: url(../src/fonts/HelveticaNeueLight.otf); } 
+body{
+  background-image: url(../public/background.svg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: initial;
+  -webkit-tap-highlight-color: transparent;
+  min-height: 100vh;
+  max-width:2000px;
+}
+@media (min-width:2000px) {
+  body{
+    margin-left: calc(50% - 1000px) !important;
+  }
+}
+html{
+}
+header{
+  backdrop-filter: blur(5px);
+  -webkit-tap-highlight-color: transparent;
+  /* transform: translateY(-54.375px); */
+  transform: translateY(0px);
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 2000px;
+}
+
+.sidebar{
+  transition: width 0.6s ease, left 0.6s ease;
+}
+.active-link{
+  background-color:#1f1e1e;
+  color: #24cfa6 !important;
+}
+.active-header-link{
+  /* text-decoration: underline;
+  text-decoration-color: rgb(67, 255, 177);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px; */
+  background-color: rgba(128, 128, 128, 0.178);
+  border-radius: 9px;
+  padding: 0px 6px;
+}
+.parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.child:hover {
+  background-color: white;
+  background-position: -100px 100px, -100px 100px;
+  transform: rotate3d(0.5, 1, 0, 30deg);
+  transform: perspective(180px) rotateX(60deg) translateY(2px);
+  box-shadow: 0px 10px 10px rgb(1, 49, 182);
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.button:hover {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate3d(0px, 0px, 15px) perspective(180px) rotateX(-35deg) translateY(2px);
+  border-radius: 50%;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.gallery_image {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
