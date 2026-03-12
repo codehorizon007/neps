@@ -47,13 +47,13 @@ function App() {
             </div>
           </div>
           <div className='w-[50%] p-5  min-[1200px]:flex hidden items-center' >
-            <img src="../public/reception.jpg" alt="" className='rounded-lg' />
+            <img src="/public/reception.jpg" alt="" className='rounded-lg' />
           </div>
         </div>
 
         <div className="section-III flex text-white justify-between   md:mx-[70px] sm:mx-[50px] mx-[20px] rounded-lg">
           <div className=' p-5 w-[68%] h-full min-[1200px]:flex hidden items-center' >
-            <img src="../public/academics.jpg" alt="" className='rounded-lg' />
+            <img src="/public/academics.jpg" alt="" className='rounded-lg' />
           </div>
           <div className="all-text  w-full flex p-5 flex-col gap-2 ">
             <h1 className="min-[400px]:text-5xl text-3xl h-auto text-center font-bold font-ubuntu text-[#24cfa6] bg-[#14141450] p-2 rounded-lg w-full ">Academics</h1>
