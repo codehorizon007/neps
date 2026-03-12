@@ -57,7 +57,7 @@ const Navbar = () => {
             <nav className='flex justify-between md:px-[70px] sm:px-[50px] px-[20px] pt-3.5 pb-2 sm:gap-0 gap-16'>
                 <div className="header-left flex gap-2">
                     <div className="header-logo flex items-center">
-                      <img src="./public/school-logo.png" className='sm:w-[30px] w-[25px]' />
+                      <img src="/school-logo.png" className='sm:w-[30px] w-[25px]' />
                     </div>
                     <div className="header-left-text font-ubuntu text-[#ecebed] font-medium sm:text-[16px] text-[13.5px] flex items-center" > <NavLink to="/">New Era Public School</NavLink></div>
                 </div>
@@ -95,3 +95,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
