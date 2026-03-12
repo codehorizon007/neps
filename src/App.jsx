@@ -58,7 +58,7 @@ function App() {
           <div className="all-text  w-full flex p-5 flex-col gap-2 ">
             <h1 className="min-[400px]:text-5xl text-3xl h-auto text-center font-bold font-ubuntu text-[#24cfa6] bg-[#14141450] p-2 rounded-lg w-full ">Academics</h1>
             <div className="motto-text h-full rounded-lg p-3 bg-[#14141450] flex flex-col  font-poppins text-xs text-justify">
-              <span className='text-sm text-[#dfb2ff]'>NEPS follows the CBSE curriculum & currently offers academic facilities from Playgroup to Class XII . English is our medium of instruction.</span>
+              <span className='text-sm text-[#dfb2ff]'>NEPS follows the RBSE curriculum & currently offers academic facilities from Playgroup to Class XII . English is our medium of instruction.</span>
               <h4 className='text-[#ffe77f] text-base mt-3'>Teaching Methodology:</h4>
               <span>We follow child centered , student friendly methods . special attention is given to “Reading and Spoken English Programmes”. Communication and reading skills are developed through specially designed courses and material.</span>
               <h4 className='text-[#ffe77f] text-base mt-3'>Parent Teacher Meetings (PTMs):</h4>
